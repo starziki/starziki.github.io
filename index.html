@@ -18,7 +18,9 @@ and may also show them only to people the user has explicitly permitted. It is n
 
 <h2 id="privacy">개인정보처리방침 / Privacy Policy</h2>
 <ul>
-  <li>Google 캘린더 일정을 <strong>읽기만</strong> 합니다(<code>calendar.readonly</code>). 일정을 만들거나 고치거나 지우지 않습니다.</li>
+  <li>Google 캘린더 일정을 읽어 보여 줍니다. 쓰기는 <strong>사용자가 위젯에서 직접 입력·수정한 종일 일정만</strong>
+      사용자 본인의 기본 캘린더에 반영하며, 그 밖의 일정은 바꾸거나 지우지 않습니다
+      (<code>calendar.events</code>, <code>calendar.calendarlist.readonly</code>).</li>
   <li>가져온 일정과 로그인 토큰은 <strong>사용자 본인 PC에만</strong> 저장됩니다.</li>
   <li>일정은 사용자 본인의 PC 화면에, 그리고 <strong>사용자 본인이 허락한 사람에게만</strong> 보여 줄 수 있습니다.
       그 밖의 외부 서버나 제3자에게는 보내지 않습니다.</li>
@@ -27,7 +29,9 @@ and may also show them only to people the user has explicitly permitted. It is n
   <li>권한 철회: <a href="https://myaccount.google.com/permissions">Google 계정 → 타사 연결</a>에서 언제든지 취소할 수 있고, PC에 저장된 데이터는 프로그램 폴더를 지우면 함께 삭제됩니다.</li>
 </ul>
 <ul lang="en">
-  <li>Read-only access to Google Calendar (<code>calendar.readonly</code>); events are never created, changed or deleted.</li>
+  <li>Reads Google Calendar events for display. It writes only all-day events that the user personally enters or edits
+      in the widget, to the user's own primary calendar; no other events are changed or deleted
+      (<code>calendar.events</code>, <code>calendar.calendarlist.readonly</code>).</li>
   <li>Events and tokens are stored only on the user's own PC.</li>
   <li>Events are shown on the user's own PC and only to people the user has explicitly permitted.
       They are never sent to any other server or third party.</li>
